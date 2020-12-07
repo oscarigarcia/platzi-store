@@ -1,4 +1,4 @@
-import { ProductsService } from "./../../products.service";
+import { ProductsService } from "./../../core/service/products/products.service";
 import { Product } from "./../../product.model";
 import { Component, OnInit } from "@angular/core";
 
