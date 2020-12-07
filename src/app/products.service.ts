@@ -52,7 +52,7 @@ export class ProductsService {
 
   constructor() {}
 
-  getAllProduct() {
+  getAllProducts() {
     return this.products;
   }
 
