@@ -1,11 +1,14 @@
-import { element } from "protractor";
-import { Directive, ElementRef } from "@angular/core";
+import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
-  selector: "[appHighlight]",
+  selector: '[appHighlight]'
 })
 export class HighlightDirective {
-  constructor(element: ElementRef) {
-    element.nativeElement.style.backgroundColor = "red";
+
+  constructor(
+    element: ElementRef
+  ) {
+    element.nativeElement.style.backgroundColor = 'red';
   }
+
 }
