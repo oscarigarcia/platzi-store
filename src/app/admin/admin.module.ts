@@ -8,6 +8,7 @@ import { ProductFormComponent } from "./components/product-form/product-form.com
 import { ProductsListComponent } from "./components/products-list/products-list.component";
 import { ReactiveFormsModule } from "@angular/forms";
 import { TableComponent } from "./components/table/table.component";
+import { FormProductComponent } from './components/form-product/form-product.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { TableComponent } from "./components/table/table.component";
     NavComponent,
     ProductsListComponent,
     TableComponent,
+    FormProductComponent,
   ],
   imports: [
     CommonModule,
