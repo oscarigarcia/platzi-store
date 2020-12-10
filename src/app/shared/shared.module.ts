@@ -1,3 +1,4 @@
+import { CartComponent } from "./components/cart/cart.component";
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterModule } from "@angular/router";
@@ -8,13 +9,13 @@ import { HeaderComponent } from "./components/header/header.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { MaterialModule } from "./../material/material.module";
 import { MatBadgeModule } from "@angular/material/badge";
-
 @NgModule({
   declarations: [
     ExponentialPipe,
     HighlightDirective,
     HeaderComponent,
     FooterComponent,
+    CartComponent,
   ],
   exports: [
     ExponentialPipe,
@@ -22,6 +23,7 @@ import { MatBadgeModule } from "@angular/material/badge";
     HeaderComponent,
     FooterComponent,
     MatBadgeModule,
+    CartComponent,
   ],
   imports: [CommonModule, RouterModule, MaterialModule, MatBadgeModule],
 })
