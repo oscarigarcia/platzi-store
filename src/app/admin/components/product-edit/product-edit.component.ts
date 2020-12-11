@@ -1,4 +1,4 @@
-import { MyValidators } from "./../../../utils/validator";
+import { MyValidators } from "../../../utils/Validator";
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { Router, ActivatedRoute, Params } from "@angular/router";

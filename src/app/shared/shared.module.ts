@@ -5,6 +5,7 @@ import { RouterModule } from "@angular/router";
 import { ReactiveFormsModule } from "@angular/forms";
 
 import { ExponentialPipe } from "./pipes/exponential/exponential.pipe";
+import { GroupProductPipe } from "./pipes/groupProduct/group-product.pipe";
 import { HighlightDirective } from "./directives/highlight/highlight.directive";
 import { HeaderComponent } from "./components/header/header.component";
 import { FooterComponent } from "./components/footer/footer.component";
@@ -14,6 +15,7 @@ import { MatBadgeModule } from "@angular/material/badge";
 @NgModule({
   declarations: [
     ExponentialPipe,
+    GroupProductPipe,
     HighlightDirective,
     HeaderComponent,
     FooterComponent,
@@ -21,6 +23,7 @@ import { MatBadgeModule } from "@angular/material/badge";
   ],
   exports: [
     ExponentialPipe,
+    GroupProductPipe,
     HighlightDirective,
     HeaderComponent,
     FooterComponent,
